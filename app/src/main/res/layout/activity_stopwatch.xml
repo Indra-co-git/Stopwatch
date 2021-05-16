@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/bgcircle"
+        android:layout_width="255dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/bgcircle"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/ancor"
+        android:layout_width="365dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icanchor"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/greenbutton"
+        android:text="Start Now"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
